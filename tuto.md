@@ -14,25 +14,25 @@ Pour commencer, accédez au site [MongoDB Atlas](https://www.mongodb.com/fr-fr/c
 
 Une fois votre compte créé, connectez-vous à MongoDB Atlas en utilisant vos identifiants.
 
-![Page de connexion MongoDB Atlas](./img/capture2.png)
-
 ## Création d'une organisation
 
 ### Accéder à la section "Organisations"
 
 Après vous être connecté, cliquez sur l'icône de profil en haut à droite et sélectionnez "Organisations".
 
-![Accès à la section Organisations](./img/capture3.png)
+![Page de connexion MongoDB Atlas](./img/capture2.png)
 
 ### Créer une organisation
 
 Cliquez sur "Create New Organization" et entrez un nom pour votre organisation.
 
-![Création d'une organisation](./img/capture4.png)
+![Accès à la section Organisations](./img/capture3.png)
 
 ## Création d'un projet
 
 ### Créer un projet
+
+![Création d'un projet](./img/capture4.png)
 
 Donnez un nom à votre projet et configurez les tags si nécessaire.
 
