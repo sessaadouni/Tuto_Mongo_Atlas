@@ -8,6 +8,10 @@
 
 > Par: Sidi ESSAADOUNI
 
+## Objectif
+
+Ce tutorial permet d'utiliser les ressources de l'organisation MongoDB pour déployer un environnement fonctionnel MongoDB. Nous montrons également comment utiliser ce déploiement dans le cloud avec d'interagir en Python avec le serveur MongoDB.
+
 ## Connexion à MongoDB Atlas
 
 ### Création d'un compte
@@ -100,5 +104,7 @@ try:
 except Exception as e:
     print(e)
 ```
+
+En éxecutant le script, vous devriez voir le résultat suivant :
 
 ![Résultat de la connexion](./img/capture11.png)
