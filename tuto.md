@@ -1,4 +1,10 @@
-# Tutoriel MongoDB Atlas
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
+
+# Utiliser MongoDG dans le cloud via Atlas
 
 > Par: Sidi ESSAADOUNI
 
@@ -63,7 +69,7 @@ Créez un utilisateur pour accéder à votre cluster. (<span style="color: red; 
 installez les bibliothèques suivantes :
 
 ```bash
-pip install "pymongo[srv] python-dotenv"
+pip install "pymongo[srv]" python-dotenv
 ```
 
 Créez un fichier `.env` à la racine de votre projet et ajoutez les informations suivantes :
@@ -94,3 +100,5 @@ try:
 except Exception as e:
     print(e)
 ```
+
+![Résultat de la connexion](./img/capture11.png)
