@@ -1,14 +1,8 @@
-<style>
-    h1 {
-        text-align: center;
-    }
-</style>
-
 # Utiliser MongoDG dans le cloud via Atlas
 
 > Par: Sidi ESSAADOUNI
 
-## Objectif
+## Objecti
 
 Ce tutorial permet d'utiliser les ressources de l'organisation MongoDB pour déployer un environnement fonctionnel MongoDB. Nous montrons également comment utiliser ce déploiement dans le cloud avec d'interagir en Python avec le serveur MongoDB.
 
@@ -79,8 +73,11 @@ pip install "pymongo[srv]" python-dotenv
 Créez un fichier `.env` à la racine de votre projet et ajoutez les informations suivantes :
 
 ```bash
-# Remplacez <db_password> par le mot de passe de connexion copié précédemment
-MONGODB_URI=mongodb+srv://test:<db_password>@cluster0.mongodb.net/?retryWrites=true&w=majority
+# Remplacez: 
+# userDb par le nom du user créé précédemment
+# <db_password> par le mot de passe de connexion copié précédemment
+# xxxxx par le nom de votre cluster géré par MongoDB
+MONGODB_URI=mongodb+srv://userDb:<db_password>@cluster0.xxxxx.mongodb.net/test?retryWrites=true&w=majority
 ```
 
 Utilisez la chaîne de connexion pour interagir avec MongoDB à partir d'un script Python.
